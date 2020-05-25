@@ -16,6 +16,12 @@ The simplest usage of `assault` requires only a URL to test against and 500 requ
 
 ```
 $ assault https://example.com
+```
+or
+```
+python tester.py 
+```
+```
 .... Done!
 --- Results ---
 Successful requests     500

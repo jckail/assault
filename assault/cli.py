@@ -8,12 +8,12 @@ from .http import assault
 from .stats import Results
 
 # un comment out to use on command line
-@click.command()
-@click.option("--requests", "-r", default=500, help="Number of requests")
-@click.option("--concurrency", "-c", default=1, help="Number of concurrent requests")
-@click.option("--json-file", "-j", default=None, help="Path to output JSON file")
-@click.option("--append-json", "-a", default=0, help="Path to output JSON file")
-@click.argument("url")
+# @click.command()
+# @click.option("--requests", "-r", default=500, help="Number of requests")
+# @click.option("--concurrency", "-c", default=1, help="Number of concurrent requests")
+# @click.option("--json-file", "-j", default=None, help="Path to output JSON file")
+# @click.option("--append-json", "-a", default=0, help="Path to output JSON file")
+# @click.argument("url")
 
 
 def cli(requests=500,concurrency=1,json_file='test.json',append_json=0,url="https://google.com"):
